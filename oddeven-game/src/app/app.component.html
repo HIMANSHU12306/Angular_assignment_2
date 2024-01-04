@@ -1,0 +1,8 @@
+<app-gamecontrol (numberGenerated)="onNumberGenerated($event)"></app-gamecontrol>
+<div *ngFor="let number of numbers">
+  <app-odd *ngIf="number %2 != 0" [number]="number"></app-odd>
+	<app-even *ngIf="number %2 == 0" [number]="number"></app-even>
+</div>
+
+
+

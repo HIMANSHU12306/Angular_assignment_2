@@ -1,0 +1,20 @@
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h3{
+    font-size: 60px;
+    color: rgb(81, 238, 9);
+}
+.list-group{
+    color: black;
+}
+.list-group-item{
+    color: green;
+    font-size: 20px;
+    font-weight: 600;
+}
+a{
+    color: black;
+}
